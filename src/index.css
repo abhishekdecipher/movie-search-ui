@@ -1,0 +1,63 @@
+body {
+  margin: 0 auto;
+  padding: 0 0;
+  font-family: sans-serif;
+}
+
+.container {width: 100%;padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;max-width:1140px;}
+.row {display: flex;flex-wrap: wrap;margin-right: -15px;margin-left: -15px;}
+
+/* block */
+.col--lg--1, .col--lg--2, .col--lg--3, .col--lg--4, .col--lg--5, .col--lg--6, .col--lg--7, .col--lg--8, .col--lg--9, .col--lg--10, .col--lg--11, .col--lg--12,
+.col-sm--1, .col--sm--2, .col--sm--3, .col--sm--4, .col--sm--5, .col--sm--6, .col--sm--7, .col--sm--8, .col--sm--9, .col--sm--10, .col--sm--11, .col--sm--12
+{position: relative;width: 100%;padding-left:15px;padding-right:15px;}
+/* block__modifier */
+.col--lg--1{width: 4.33%;}
+.col--lg--2{width: 12.66%;}
+.col--lg--3{width: 21%;}
+.col--lg--4{width: 30.33%;}
+.col--lg--5{width: 37.66%;}
+.col--lg--6{width: 46%;}
+.col--lg--7{width: 54.33%;}
+.col--lg--8{width: 62.66%;}
+.col--lg--9{width: 71%;}
+.col--lg--10{width: 79.33%;}
+.col--lg--11{width: 87.66%;}
+.col--lg--12{width: 96%;}
+.card {box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;width:100%;background-color: #fff;height: 360px;overflow: hidden;position: relative;margin-bottom: 20px;}
+.card:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+.card-image{height: 290px;position: relative;overflow: hidden;transition: 1s;}
+.card-description {background-color: #F7F7F7;border-top: 1px solid #EFEFEF;padding: 10px 20px;color: #797979;height:100%}
+.img-responsive{display: block;max-width: 100%;}
+.card-description h4 {font-size: 16px;margin-bottom: 5px;margin-top: 0;display: inline-block;font-weight:500;}
+.card-description p {color: #C4C4C4;margin:5px 5px;}
+@media (max-width: 768px) {
+  .container {max-width:768px;}
+  .col--sm_1{width: 4.33%;}
+  .col--sm--2{width: 12.66%;}
+  .col--sm--3{width: 21%;}
+  .col--sm--4{width: 30.33%;}
+  .col--sm--5{width: 37.66%;}
+  .col--sm--6{width: 46%;}
+  .col--sm--7{width: 54.33%;}
+  .col--sm--8{width: 62.66%;}
+  .col--sm--9{width: 71%;}
+  .col--sm--10{width: 79.33%;}
+  .col--sm--11{width:  87.66%;}
+  .col--sm--12{width: 96%;}
+}
+
+input.search {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 35px auto;
+  resize: vertical;
+}
+
+.loading {
+  width: 100%;
+  text-align: center;
+}
